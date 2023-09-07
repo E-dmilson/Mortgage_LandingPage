@@ -1,0 +1,151 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	color: #fff;
+	font-family: Arial;
+}
+header{
+	background-image: url('../img/8-tips-to-reduce-your-interest-burden-while-repaying-home-loan.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-clip: inherit;
+}
+header .headerContent{
+	display: flex;
+	justify-content: space-between;
+	padding: 1rem 0;
+}
+.headerContent div{
+	display: flex;
+	gap: 0.5rem;
+	padding: 0 5rem;
+	align-items: center;
+}
+.headerContent .company-name span, .headerContent .company-name p{
+	font-size: 20px;
+	font-weight: 600;
+}
+.headerContent .company-name span{
+	position: relative;
+	background: orange;
+	text-align: center;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	padding-top: 0.6rem;
+}
+.headerContent nav{
+	display: flex;
+	align-items: center;
+}
+
+.contact p{
+	font: 14pt arial;
+}
+
+.content p{
+	padding-top: 1rem;
+}
+.headerContent .btn button{
+	padding: 0.5rem 1.5rem;
+	cursor: pointer;
+	border: none;
+	color: #000;
+	font-weight: 700;
+	text-transform: uppercase;
+	box-shadow: 0 0.5px 2px rgb(80, 79, 79);
+}
+.headerContent .btn #active{
+	background: orange;
+	color: #fff;
+}
+header .content{
+	width: 35%;
+	padding: 10rem 5rem;
+}
+header .content h1{
+	font-size: 50px;
+}
+header .content button{
+	padding: 0.6rem 1.8rem;
+	border: none;
+	color: #000;
+	font-weight: 600;
+	text-transform: uppercase;
+	cursor: pointer;
+	box-shadow: 0 2px 5px rgb(80, 79, 79);
+	transition: all .3s;
+}
+header .content #active{
+	background: orange;
+	color: #fff;
+}
+.main-content{
+	display: flex;
+	flex-direction: column;
+	padding: 5rem 0;
+	text-align: center;
+	font: normal 14pt arial;
+}
+.main-content h2{
+	color: #000;
+	font: normal 20pt fantasy;
+}
+.main-content h2::after{
+	content: "";
+	margin: 0 auto;
+	display: block;
+	width: 6rem;
+	height: 3px;
+	margin-top: 1rem;
+	background: rgb(114, 41, 41);
+}
+.main-content p{
+	margin-top: 1rem;
+	color: #000;
+}
+.carts{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	padding: 3rem 0;
+}
+.carts .left, .carts .right{
+	display: flex;
+	flex-direction: column;
+	background: #0f3655;
+	justify-content: center;
+	align-items: center;
+	padding: 1rem 1.5rem;
+	gap: 1rem;
+}
+.carts .left a, .carts .right a{
+	color: #000;
+	background: #fff;
+	padding: 1rem 4.5rem;
+}
+.carts .right a{
+	padding: 1rem 6rem;
+}
+.carts img{
+	background: #fff;
+}
+.carts a:hover{
+	background: orange;
+	transition: all .3s;
+}
+
+footer{
+	background: #5da0bd;
+	padding: 1rem 0;
+	text-align: center;
+	font-size: 18px;
+	font-weight: 800;
+	font-family: Impact, Haetternschweiller, 'Arial Narrow Bold' sans-serif;
+}
+footer span{
+	color: #0f3655;
+	font-weight: 900;
+}
